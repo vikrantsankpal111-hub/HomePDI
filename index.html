@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HomePDI - Interior Design</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f2ed;
+      color: #292929;
+    }
+    header {
+      background: #24352d;
+      color: white;
+      padding: 22px;
+      text-align: center;
+    }
+    nav {
+      background: #d7c4a5;
+      padding: 14px;
+      text-align: center;
+    }
+    nav a {
+      color: #292929;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 65px 20px;
+    }
+    .hero h2 { font-size: 32px; }
+    .hero p { font-size: 18px; }
+    button {
+      background: #24352d;
+      color: white;
+      padding: 14px 24px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+    .services {
+      padding: 25px;
+      text-align: center;
+    }
+    .service {
+      background: white;
+      margin: 15px auto;
+      padding: 22px;
+      border-radius: 10px;
+      max-width: 400px;
+    }
+    footer {
+      background: #24352d;
+      color: white;
+      text-align: center;
+      padding: 18px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HomePDI</h1>
+    <p>Your Dream Home, Our Design</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <h2>Design Your Dream Home</h2>
+    <p>Beautiful interiors, smart layouts and modern kitchens.</p>
+    <button onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">
+      Explore Designs
+    </button>
+  </section>
+
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service">
+      <h3>Interior Design</h3>
+      <p>Plan beautiful spaces for your home.</p>
+    </div>
+    <div class="service">
+      <h3>Kitchen Design</h3>
+      <p>Modern kitchen layouts and countertops.</p>
+    </div>
+    <div class="service">
+      <h3>3D Home Design</h3>
+      <p>Visualize your dream home in 3D.</p>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>© 2026 HomePDI | All Rights Reserved</p>
+  </footer>
+</body>
+  </html>
